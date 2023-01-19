@@ -7,15 +7,14 @@ h2 {
 }
 
 a {
-  color: black;
+  color: #0af;
   text-decoration: underline;
 }
 
 h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom: 1px solid gray;
-  margin: 0px;
+  margin: 0;
   padding: 20px;
 }
 
@@ -24,6 +23,27 @@ ol {
   width: 100px;
   margin: 0;
   padding: 20px;
+}
+
+.button {
+  padding: 0;
+  background-color: #00000000;
+  border: none;
+}
+
+#theme {
+  padding: 20px;
+  width: 120px;
+  height: 50px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+#top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid gray;
 }
 
 #grid {
@@ -38,6 +58,7 @@ ol {
 #grid #article {
   padding: 20px;
 }
+
 @media (max-width: 500px) {
   #grid {
     display: block;
@@ -45,9 +66,4 @@ ol {
   ol {
     border-right: none;
   }
-}
-
-#title {
-  width: 150px;
-  text-align: center;
 }
