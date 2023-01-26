@@ -7,8 +7,7 @@ h2 {
 }
 
 a {
-  color: #0af;
-  text-decoration: underline;
+  color: #05f;
 }
 
 h1 {
@@ -37,7 +36,7 @@ ol {
   height: 50px;
   display: grid;
   grid-column-gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #top {
